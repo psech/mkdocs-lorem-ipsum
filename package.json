@@ -1,0 +1,26 @@
+{
+  "name": "speakers-guild-docs",
+  "version": "1.0.0",
+  "description": "Speakers' Guild Docs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "instate": "pip3 install mkdocs-material mkdocs-git-revision-date-localized-plugin",
+    "build": "mkdocs build",
+    "deploy": "mkdocs gh-deploy",
+    "serve": "mkdocs serve"   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domain-group/speakers-guild-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domain-group/speakers-guild-docs/issues"
+  },
+  "homepage": "https://github.com/domain-group/speakers-guild-docs#readme"
+}
